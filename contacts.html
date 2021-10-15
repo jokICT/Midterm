@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h3>Contacts</h3>
+    <ul>
+      <li>Email: joshuasarmiento@gmail.com</li>
+      <li>Phone number: 0928*****7</li>
+    </ul>
+    <br />
+    <a href="index.html">RETURN</a>
+    <hr />
+    <h3>EMAIL ME!</h3>
+
+    <form
+      action="mailto:joshuasarmiento@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="name">Your Name</label>
+      <input
+        type="text"
+        id="name"
+        name="Name: "
+        placeholder="Enter Your name"
+      /><br />
+      <label for="email">Your Email</label>
+      <input
+        type="email"
+        id="email"
+        name="Email: "
+        placeholder="Enter yor Email"
+      /><br />
+      <label for="msg">Your Message</label><br />
+      <textarea
+        id="msg"
+        rows="10"
+        cols="30"
+        name="Message"
+        placeholder="Enter Your message here"
+      ></textarea
+      >x
+      <input type="submit" />
+    </form>
+  </body>
+</html>
